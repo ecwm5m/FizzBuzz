@@ -1,1 +1,15 @@
-
+#for loop to traverse numbers 1-100
+for num in range(1,101):
+    #checks for numbers divisible by 3 and 5
+    if(num % 3 == 0 and num % 5 == 0):
+        #prints statement
+        print("FizzBuzz")
+    #checks for numbers divisible by 3
+    elif(num % 3 == 0):
+        print("Fizz")
+    #checks for numbers divisible by 5
+    elif(num % 5 == 0):
+        print("Buzz")
+    #prints the number if not divisible by 3 or 5
+    else:
+        print(num)
